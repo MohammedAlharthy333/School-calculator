@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html dir = "rtl">
+<head>
+<meta charset = "UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title> حاسبتي </title>
+<link rel = "stylesheet" href = "style2.css"/> 
+
+</head>
+<body>
+<!-- file:///C:/Users/dell/Desktop/my_projects/index2.html -->
+
+
+<div class = "header" id = "logo" onclick = "changeColor();">
+	<div class = "container">
+		<label id = "#logo"> حاسبتي المدرسية </label> 
+		<div class = "links">
+			<ul>
+				<li><a href = "">one</a></li>
+				<li><a href = "">two</a></li>
+				<li><a href = "">three</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<form>
+	<div id = "firstDiv">
+		<label id = "label1" for = "field1">قم باختيار المستوى :</label>
+		<br/>
+		<select name = "level" id = "field1" onclick = "checkValues();">
+			<option value = "0">اختر المستوى...</option>
+			<option value = "1"> الأول </option>
+			<option value = "2"> الثاني </option>
+			<option value = "3"> الثالث </option>
+			<option value = "4"> الرابع </option>
+			<option value = "5"> الخامس </option>
+			<option value = "6"> السادس </option>
+			<option value = "7"> السابع </option>
+			<option value = "8"> الثامن </option>
+			<option value = "9"> التاسع </option>
+		</select>
+		<br/><br/>
+
+		
+			<h2 id = "selected-element"></h2>
+			<div id = "subjects">
+				
+				
+				
+				
+			</div>
+			
+			<br/>
+			<h3 id = "result1"></h3>
+			<h3 id = "result2"></h3>
+			<h3 id = "result3"></h3>
+			<h3 id = "result4"></h3>
+			
+	
+	</div>
+	<br/><br/>
+	
+		
+		
+
+</form>
+<script src = "master2.js"></script> 
+</body>
+</html>
